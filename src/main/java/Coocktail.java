@@ -2,11 +2,12 @@ public class Coocktail implements Sort {
     public int[] sort( int[] array ){
         int[] clonedArray = array.clone();
         boolean swapped;
+        int temp;
         do {
             swapped = false;
             for (int i =0; i<=  clonedArray.length  - 2;i++) {
                 if (clonedArray[ i ] > clonedArray[ i + 1 ]) {
-                    int temp = clonedArray[i];
+                    temp = clonedArray[i];
                     clonedArray[i] = clonedArray[i+1];
                     clonedArray[i+1]=temp;
                     swapped = true;
@@ -18,7 +19,7 @@ public class Coocktail implements Sort {
             swapped = false;
             for (int i= clonedArray.length - 2;i>=0;i--) {
                 if (clonedArray[ i ] > clonedArray[ i + 1 ]) {
-                    int temp = clonedArray[i];
+                    temp = clonedArray[i];
                     clonedArray[i] = clonedArray[i+1];
                     clonedArray[i+1]=temp;
                     swapped = true;

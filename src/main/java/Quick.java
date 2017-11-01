@@ -6,13 +6,14 @@ public class Quick implements Sort{
         int j = end;
 
         int op = (i+j)/2;
+        int temp;
 
         while (i<j){
             while ((i<op) && (arr[i] <= arr[op]))i++;
             while ((j>op) && (arr[j] >= arr[op]))j--;
 
             if(i<j){
-                int temp = arr[i];
+                temp = arr[i];
                 arr[i] = arr[j];
                 arr[j] = temp;
                 if(i==op)op=j;

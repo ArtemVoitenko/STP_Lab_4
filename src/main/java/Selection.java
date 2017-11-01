@@ -5,12 +5,12 @@ public class Selection implements Sort {
             arrInsertionSort[s] = arr[s];
         }
 
-        for (int i = 0; i < arrInsertionSort.length - 1; i++)
-        {
+        for (int i = 0; i < arrInsertionSort.length - 1; i++) {
             int index = i;
-            for (int j = i + 1; j < arrInsertionSort.length; j++)
+            for (int j = i + 1; j < arrInsertionSort.length; j++) {
                 if (arrInsertionSort[j] < arrInsertionSort[index])
                     index = j;
+            }
 
             int smallerNumber = arrInsertionSort[index];
             arrInsertionSort[index] = arrInsertionSort[i];
