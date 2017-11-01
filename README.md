@@ -1,0 +1,3 @@
+[![Build Status](https://travis-ci.org/ArtemVoitenko/STP_Lab_4.svg?branch=master)](https://travis-ci.org/ArtemVoitenko/STP_Lab_4)
+[![codecov](https://codecov.io/gh/ArtemVoitenko/STP_Lab_4/branch/master/graph/badge.svg)](https://codecov.io/gh/ArtemVoitenko/STP_Lab_4)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/bebac04e8f284593ad205ae4d30cc765)](https://www.codacy.com/app/ArtemVoitenko/STP_Lab_4?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ArtemVoitenko/STP_Lab_4&amp;utm_campaign=Badge_Grade)
